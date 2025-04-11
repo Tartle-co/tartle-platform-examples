@@ -5,10 +5,10 @@ import { LinkButton } from './components/LinkButton';
 
 const actions = ['complete', 'quota full', 'fail', 'screenout'];
 const endpoints = {
-  complete: 'v3/endlinks/complete.html',
-  'quota full': 'v3/endlinks/quota_full.html',
-  fail: 'v3/endlinks/fail.html',
-  screenout: 'v3/endlinks/screenout.html'
+  complete: 'api/v3/endlinks/complete.html',
+  'quota full': 'api/v3/endlinks/quota_full.html',
+  fail: 'api/v3/endlinks/fail.html',
+  screenout: 'api/v3/endlinks/screenout.html'
 };
 
 function CompletionRedirectsPage() {
@@ -106,8 +106,3 @@ const buildEndpointUrl = (action, endlinkToken) => {
     process.env.VITE_TARTLE_BASE_URL || 'http://localhost:3000'
   );
 };
-
-// new URL(
-//   '/v3/endlinks/complete?' + new URLSearchParams({ tartle_endlink_token }),
-//   'http://localhost:3000'
-// );

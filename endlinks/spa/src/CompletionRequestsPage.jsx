@@ -4,10 +4,10 @@ import HighlightContainer from './components/HighlightContainer';
 
 const actions = ['complete', 'quota full', 'fail', 'screenout'];
 const endpoints = {
-  complete: 'v3/endlinks/complete',
-  'quota full': 'v3/endlinks/quota_full',
-  fail: 'v3/endlinks/fail',
-  screenout: 'v3/endlinks/screenout'
+  complete: 'api/v3/endlinks/complete',
+  'quota full': 'api/v3/endlinks/quota_full',
+  fail: 'api/v3/endlinks/fail',
+  screenout: 'api/v3/endlinks/screenout'
 };
 
 function CompletionRequestsPage() {
