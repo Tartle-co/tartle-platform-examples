@@ -1,7 +1,5 @@
 import { useEffect } from 'react';
 import { useEndlinkToken } from './components/EndlinkContext';
-import { ArrowRight } from './components/SVG';
-import { Link } from './components/Link';
 import { LinkButton } from './components/LinkButton';
 
 function EndlinkLandingPage() {

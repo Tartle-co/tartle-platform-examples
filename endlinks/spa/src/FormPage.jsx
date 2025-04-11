@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import HighlightContainer from './components/HighlightContainer';
-import { FoodIcon } from './components/SVG';
+import { FoodIcon } from './components/Svg';
 import { LinkButton } from './components/LinkButton';
 
 function FormPage() {

@@ -1,7 +1,7 @@
 import './App.css';
 import { RouterProvider } from './components/RouterContext';
 import { Routes } from './components/Routes';
-import { TartleIcon } from './components/SVG';
+import { TartleIcon } from './components/Svg';
 import EndlinkLandingPage from './EndlinkLandingPage';
 import { EndlinkTokenProvider } from './components/EndlinkContext';
 import FormPage from './FormPage';
