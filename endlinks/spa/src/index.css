@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-tartleGreen-400: #51aaa3;
+  --font-sans: 'Outfit', sans-serif;
+  --font-secondary: 'DM Sans', sans-serif;
+  --color-tartleGreen-400: #51aaa3;
+}
