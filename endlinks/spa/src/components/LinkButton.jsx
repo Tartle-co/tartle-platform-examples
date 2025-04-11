@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import { Link } from './Link';
-import { ArrowRight } from './SVG';
+import { ArrowRight } from './Svg';
 
 export const LinkButton = ({
   to,
